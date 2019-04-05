@@ -1,0 +1,125 @@
+html {
+  font-size: 26.66667vw;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-size: .14rem;
+  line-height: .14rem;
+}
+.dfcc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  vertical-align: middle;
+}
+#header {
+  background-color: #006699;
+  display: flex;
+  height: .45rem;
+}
+#header .left {
+  width: .45rem;
+  height: .45rem;
+}
+#header .center {
+  flex: 1;
+}
+#header .center h4 {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#header .right {
+  width: .45rem;
+  height: .45rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #ccc;
+}
+#header .right a {
+  color: #fff;
+}
+#main {
+  flex: 1;
+  overflow: hidden;
+}
+#main .mui-scroll-wrapper {
+  position: relative;
+  height: 100%;
+}
+#footer {
+  background-color: #006699;
+  height: .45rem;
+}
+#footer .mui-row .mui-col-xs-3 a {
+  font-size: 14px;
+  height: .45rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer .mui-row .mui-col-xs-3 a i {
+  display: block;
+}
+#footer .mui-row .mui-col-xs-3 a span {
+  display: block;
+}
+#main #nav .mui-row {
+  padding: 0.1rem;
+}
+#main #nav .mui-row .mui-col-xs-4 a {
+  display: block;
+}
+#main #nav .mui-row .mui-col-xs-4 a img {
+  width: 100%;
+}
+#main #banner {
+  padding: 0 10px;
+}
+#main #banner a {
+  display: block;
+}
+#main #banner a img {
+  width: 100%;
+}
+#main #banner .mui-col-xs-8 a img {
+  height: 1.2rem;
+}
+#main #brand,
+#main #sport,
+#main #woman,
+#main #man {
+  padding: .1rem;
+}
+#main #brand a,
+#main #sport a,
+#main #woman a,
+#main #man a {
+  display: block;
+}
+#main #brand a img,
+#main #sport a img,
+#main #woman a img,
+#main #man a img {
+  width: 100%;
+}
